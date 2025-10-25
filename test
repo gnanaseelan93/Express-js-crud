@@ -1,0 +1,5 @@
+npm init -y
+inpm i express pg dotenv cors joi
+inpm i -D nodemon
+
+docker run --name postgres-db -e POSTGRES_PASSWORD=admin -p 5432:5432  -d postgres
