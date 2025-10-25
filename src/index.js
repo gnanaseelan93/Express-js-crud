@@ -5,6 +5,7 @@ import pool from './config/db.js';
 import userRoutes from './routes/userRoutes.js';
 import errorHandler from './middlewares/errorHandler.js';
 import  createUserTableQuery from './data/createUserTable.js';
+import logger from './config/logger.js';
 
 
 dotenv.config();
@@ -18,7 +19,7 @@ app.use(cors());
 
 
 //ROUTES
-app.use("/api", userRoutes);
+app.use("/api/users", userRoutes);
 
 
 //Error Handling Middleware
@@ -37,6 +38,6 @@ app.get('/test-db', async (req, res) => {
 
 //START THE SERVER
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  logger.info(`Server is running on port ${PORT}`);
 });
 

@@ -1,0 +1,79 @@
+[2025-10-25T07:11:03.996Z] [32minfo[39m: Server is running on port 5001
+[2025-10-25T07:16:38.163Z] [32minfo[39m: Server is running on port 5001
+[2025-10-25T07:20:06.154Z] [32minfo[39m: Server is running on port 5001
+[2025-10-25T07:25:54.234Z] [32minfo[39m: Server is running on port 5001
+[2025-10-25T07:27:08.305Z] [32minfo[39m: Server is running on port 5001
+[2025-10-25T07:27:26.945Z] [32minfo[39m: Server is running on port 5001
+[2025-10-25T07:31:51.686Z] [32minfo[39m: Server is running on port 5001
+[2025-10-25T07:31:58.839Z] [32minfo[39m: Server is running on port 5001
+[2025-10-25T07:32:09.876Z] [34mdebug[39m: Service: getUserByIdService called with id=10
+[2025-10-25T07:32:09.877Z] [34mdebug[39m: DB: Executing query -> SELECT * FROM users WHERE id=10
+[2025-10-25T07:32:09.889Z] [33mwarn[39m: DB: No user found with ID=10
+[2025-10-25T07:32:09.890Z] [33mwarn[39m: Service: User not found with ID=10
+[2025-10-25T07:32:33.480Z] [34mdebug[39m: Service: getAllUsersService called
+[2025-10-25T07:32:33.480Z] [34mdebug[39m: DB: Executing query -> SELECT * FROM users
+[2025-10-25T07:32:33.491Z] [32minfo[39m: DB: Retrieved 3 users
+[2025-10-25T07:32:33.492Z] [32minfo[39m: Service: Retrieved 3 users
+[2025-10-25T07:32:56.316Z] [34mdebug[39m: Service: createUserService called
+[2025-10-25T07:32:56.317Z] [34mdebug[39m: DB: Inserting new user (name=xxqqqqq, email=kamxxxaio123@gmail.com)
+[2025-10-25T07:32:56.332Z] [32minfo[39m: DB: User created with ID=11
+[2025-10-25T07:32:56.333Z] [32minfo[39m: Service: User created successfully with ID=11
+[2025-10-25T07:33:26.782Z] [34mdebug[39m: Service: updateUserService called with id=11
+[2025-10-25T07:33:26.783Z] [34mdebug[39m: DB: Updating user ID=11
+[2025-10-25T07:33:26.852Z] [32minfo[39m: DB: User updated ID=11
+[2025-10-25T07:33:26.852Z] [32minfo[39m: Service: User updated successfully (ID=11)
+[2025-10-25T07:33:43.565Z] [34mdebug[39m: Service: deleteUserService called with id=11
+[2025-10-25T07:33:43.566Z] [34mdebug[39m: DB: Deleting user ID=11
+[2025-10-25T07:33:43.584Z] [32minfo[39m: DB: Deleted user ID=11
+[2025-10-25T07:33:43.585Z] [32minfo[39m: Service: User deleted successfully (ID=11)
+[2025-10-25T07:50:17.624Z] [32minfo[39m: Server is running on port 5001
+[2025-10-25T07:51:08.105Z] [34mdebug[39m: Service: getUserByIdService called with id=users
+[2025-10-25T07:51:08.106Z] [34mdebug[39m: DB: Executing query -> SELECT * FROM users WHERE id=users
+[2025-10-25T07:51:08.119Z] [31merror[39m: DB Error (getUserById): invalid input syntax for type integer: "users"
+[2025-10-25T07:51:08.120Z] [31merror[39m: Service Error (getUserByIdService): invalid input syntax for type integer: "users"
+[2025-10-25T07:51:08.121Z] [31merror[39m: Error retrieving user: invalid input syntax for type integer: "users"
+[2025-10-25T07:51:43.227Z] [32minfo[39m: Server is running on port 5001
+[2025-10-25T07:51:43.600Z] [32minfo[39m: Server is running on port 5001
+[2025-10-25T07:51:47.325Z] [34mdebug[39m: Service: getUserByIdService called with id=users
+[2025-10-25T07:51:47.326Z] [34mdebug[39m: DB: Executing query -> SELECT * FROM users WHERE id=users
+[2025-10-25T07:51:47.329Z] [31merror[39m: DB Error (getUserById): invalid input syntax for type integer: "users"
+[2025-10-25T07:51:47.330Z] [31merror[39m: Service Error (getUserByIdService): invalid input syntax for type integer: "users"
+[2025-10-25T07:51:47.330Z] [31merror[39m: Error retrieving user: invalid input syntax for type integer: "users"
+[2025-10-25T07:53:22.112Z] [34mdebug[39m: Service: getUserByIdService called with id=users
+[2025-10-25T07:53:22.112Z] [34mdebug[39m: DB: Executing query -> SELECT * FROM users WHERE id=users
+[2025-10-25T07:53:22.127Z] [31merror[39m: DB Error (getUserById): invalid input syntax for type integer: "users"
+[2025-10-25T07:53:22.128Z] [31merror[39m: Service Error (getUserByIdService): invalid input syntax for type integer: "users"
+[2025-10-25T07:53:22.128Z] [31merror[39m: Error retrieving user: invalid input syntax for type integer: "users"
+[2025-10-25T07:55:24.913Z] [34mdebug[39m: Service: getUserByIdService called with id=users
+[2025-10-25T07:55:24.914Z] [34mdebug[39m: DB: Executing query -> SELECT * FROM users WHERE id=users
+[2025-10-25T07:55:24.926Z] [31merror[39m: DB Error (getUserById): invalid input syntax for type integer: "users"
+[2025-10-25T07:55:24.927Z] [31merror[39m: Service Error (getUserByIdService): invalid input syntax for type integer: "users"
+[2025-10-25T07:55:24.927Z] [31merror[39m: Error retrieving user: invalid input syntax for type integer: "users"
+[2025-10-25T07:55:54.897Z] [32minfo[39m: Server is running on port 5001
+[2025-10-25T07:55:58.510Z] [32minfo[39m: Server is running on port 5001
+[2025-10-25T07:56:03.221Z] [34mdebug[39m: Service: getAllUsersService called
+[2025-10-25T07:56:03.222Z] [34mdebug[39m: DB: Executing query -> SELECT * FROM users
+[2025-10-25T07:56:03.227Z] [32minfo[39m: DB: Retrieved 3 users
+[2025-10-25T07:56:03.228Z] [32minfo[39m: Service: Retrieved 3 users
+[2025-10-25T07:56:10.009Z] [32minfo[39m: Server is running on port 5001
+[2025-10-25T07:56:14.572Z] [34mdebug[39m: Service: getAllUsersService called
+[2025-10-25T07:56:14.573Z] [34mdebug[39m: DB: Executing query -> SELECT * FROM users
+[2025-10-25T07:56:14.576Z] [32minfo[39m: DB: Retrieved 3 users
+[2025-10-25T07:56:14.576Z] [32minfo[39m: Service: Retrieved 3 users
+[2025-10-25T07:56:27.629Z] [34mdebug[39m: Service: getUserByIdService called with id=5
+[2025-10-25T07:56:27.629Z] [34mdebug[39m: DB: Executing query -> SELECT * FROM users WHERE id=5
+[2025-10-25T07:56:27.641Z] [32minfo[39m: DB: Retrieved user ID=5
+[2025-10-25T07:56:27.641Z] [32minfo[39m: Service: Retrieved user ID=5
+[2025-10-25T07:56:43.261Z] [34mdebug[39m: Service: createUserService called
+[2025-10-25T07:56:43.262Z] [34mdebug[39m: DB: Inserting new user (name=WWWWWW, email=kamxWWxxaio123@gmail.com)
+[2025-10-25T07:56:43.280Z] [32minfo[39m: DB: User created with ID=12
+[2025-10-25T07:56:43.280Z] [32minfo[39m: Service: User created successfully with ID=12
+[2025-10-25T07:57:10.702Z] [34mdebug[39m: Service: updateUserService called with id=12
+[2025-10-25T07:57:10.702Z] [34mdebug[39m: DB: Updating user ID=12
+[2025-10-25T07:57:10.722Z] [32minfo[39m: DB: User updated ID=12
+[2025-10-25T07:57:10.722Z] [32minfo[39m: Service: User updated successfully (ID=12)
+[2025-10-25T07:57:17.240Z] [34mdebug[39m: Service: deleteUserService called with id=12
+[2025-10-25T07:57:17.240Z] [34mdebug[39m: DB: Deleting user ID=12
+[2025-10-25T07:57:17.249Z] [32minfo[39m: DB: Deleted user ID=12
+[2025-10-25T07:57:17.249Z] [32minfo[39m: Service: User deleted successfully (ID=12)
+[2025-10-25T08:04:41.874Z] [32minfo[39m: Server is running on port 5001
