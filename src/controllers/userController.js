@@ -13,7 +13,6 @@ const handleResponse = (res,status, message,data=null) => {
 
 export const createUser = async (req, res, next) => {
     const { name, email } = req.body;
-    console.log(name,email);
     try {
         const newUser = await userService.createUserService(name, email);
         handleResponse(res,201, 'User created successfully', newUser);
